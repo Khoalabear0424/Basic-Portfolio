@@ -106,6 +106,7 @@ header ul li a:hover{
     background: var(--main_content_background);
     padding: 27px 30px 90px 30px;
     border-bottom: 7px solid var(--teal);
+    height: 545px;
 }
 
 #main{
@@ -145,6 +146,9 @@ footer{
     text-align: center;
     background: #777777;
     height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p{
@@ -175,7 +179,7 @@ input[type="email"]{
 
 #message{
     padding: 8px;
-    height: 200px;
+    height: 150px;
     width: 907px;
 }
 
@@ -187,3 +191,65 @@ button{
     margin-top: 10px;
     font-size: 15px;
 }
+
+
+/* ----------- Photos area Portfolio  -----------*/
+
+
+#stock1{
+    background: url("https://d2wi3xvhr3qrd7.cloudfront.net/wp/wp-content/uploads/2018/01/24144716/f0a6e5d0570c4c804277b2a640b7edf5-1280x720.jpg") no-repeat center center;
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+}
+
+#stock2{
+    background: url("https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F422395%2Fgetty-stock-market-board.jpg&w=700&op=resize") no-repeat center center;
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+   
+}
+
+#stock3{
+    background: url("https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F422395%2Fgetty-stock-market-board.jpg&w=700&op=resize") no-repeat center center;
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+   
+}
+
+#stock4{
+    background: url("https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F422395%2Fgetty-stock-market-board.jpg&w=700&op=resize") no-repeat center center;
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+   
+}
+
+#stock5{
+    background: url("https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F422395%2Fgetty-stock-market-board.jpg&w=700&op=resize") no-repeat center center;
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+   
+}
+
+.caption{
+    margin: auto;
+    width: 100%;
+    background: var(--teal);
+    text-align: center;
+}
+
+.caption h3{
+    color: white;
+    margin-top: 50%;
+    padding: 7px 40px;
+}
+
+.stockPhotos{
+    display: inline-block;
+    margin: 20px 20px;
+}
+
